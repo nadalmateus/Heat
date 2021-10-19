@@ -2,4 +2,4 @@ import express from 'express'
 
 const app = express()
 
-app.listen(3333)
+app.listen(4000, () => console.log('[ON] Server running on PORT 4000'))
